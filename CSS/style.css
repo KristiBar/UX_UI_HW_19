@@ -318,8 +318,8 @@ td * {
   .mobile_button {
     display: inline;
     position: absolute;
-    right: 25px;
-    top: 25px;
+    right: 15px;
+    top: 15px;
     height: 36px;
     width: 36px;
     z-index: 10;
