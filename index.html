@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/style.css" type="text/css" rel="stylesheet" />
+    <title>Kristi's Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <div class="container">
+
+      <div class="title">
+
+        <img class="mobile_button" src="images/Hamburger.png">
+
+        <div class="top_line">
+          <img src="images/LogoHead.jpeg" alt="Logo" width="150px" />
+          
+        <div class="site_name">
+          Kristi Bar Design
+        </div>
+        </div>
+        <div class="tag-line">
+          Creating thoughtfully researched, tested,<br />& well executed designs.
+        </div>
+      </div>
+
+      <div class="empty1"></div>
+
+      <nav>
+        <ul class="menu">
+          <li>
+            <a href="Portfolio Homepage.html">HOME</a>
+          </li>
+          <li>
+            <a href="">WORK</a>
+          </li>
+          <li>
+            <a href="">SKILLS</a>
+          </li>
+          <li>
+            <a href="">RESUME</a>
+          </li>
+          <li>
+            <a href="">CONTACT</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="empty2"></div>
+
+      <div class="info">
+        <div class="info_inner">
+          <h2>Welcome, I'm Kristi.</h2>
+          <p>
+            A professional with experience in the high-tech<br />
+            global economy, a UX/UI Designer, and a<br />
+            lifelong people person. I keep people at the<br />
+            center and sprinkle in some business savvy<br />
+            to create inspiring experiences!
+          </p>
+        </div>
+      </div>
+
+      <div class="images">
+
+        <div class="images_inner">
+          <figure class="sunflowers">
+            <img
+              src="images/Sunflowers.jpg"
+              alt="Kristi in sunflower field with her daughters ages 13 & 6"
+            />
+            <figcaption>DEVOTED MOM</figcaption>
+          </figure>
+          <figure class="ziplining">
+            <img
+              src="images/Ziplining.jfif"
+              alt="Kristi & her 13 year old daugher with gear on ready to go ziplining"
+            />
+            <figcaption>OUTDOOR ENTHUSIAST</figcaption>
+          </figure>
+          <figure class="headshot">
+            <img
+              src="images/KristiHeadshot.jpg"
+              alt="Close up of Kristi holding a puppy"
+            />
+            <figcaption>ANIMAL LOVER</figcaption>
+          </figure>
+        </div>
+
+      </div>
+
+    
+      <div class="work">
+        <h2>WORK</h2>
+        <ol>
+          <li>
+            Created a brand-new mobile app prototype to solve a real<br>
+            world problem. (<i>team project</i>)<br> &nbsp; <br>
+          </li>
+          <li>
+            Redesiged a local nonprofit's website & mobile app.<br>
+            (<i>team project</i>)<br> &nbsp; <br>
+          </li>
+          <li>Redesigned a government website. (<i>individual project</i>)</li>
+        </ol>
+      </div>
+
+      <div class="box-right">
+        <figure class="posiloop">
+          <img src="images/PosiloopScreenShot.JPG"
+          alt="Screen shot of homepage of Group 1 project prototype"
+          />
+      </div>
+
+      <div class="container-2">
+        <div class="box-left">
+          <figure class="seedling">
+            <img src="images/HoldingSeedling.jpeg" alt="Hands holding seedling plant"/>
+        </div>
+      </div>
+
+      <div class="box-right-2">
+          <h2>SKILLS</h2>
+          <p>There are many ways to be creative! Designing experiences for users or planting
+           and growing a garden are just a couple of my favorites.</p>
+      </div>
+  
+
+      <footer>
+
+        <table>
+          <tbody>
+            <tr>
+              <td>
+                <img src="images/mobilePhone.png" alt="mobile phone">
+                <span>(206) 353-5227</span>
+              </td>
+              <td>
+                <img src="images/Envelope.png" alt="evelope">
+                <span>kristibar6@gmail.com </span>
+              </td>
+              <td>
+                <img src="images/city.png" alt="city">
+                <span>Portland Metropolitan Area</span>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <img src="images/Desktop Monitor.png" alt="desktop monitor">
+                <span>kristibar.com</span>
+              </td>
+              <td>
+                <img src="images/Linkedin.png" alt="LinkedIn">
+                <span>www.linkedin.com/in/kristi-bar</span>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div class="copyRight">Copyright 2022</div>
+
+      </footer>
+
+        <div class="letsConnect">
+          <figure class="profile">
+            <img src="images/LetsConnect.gif" alt="Gif of Profile">
+          </figure>
+            <h2>LET'S<br> CONNECT!</h2>
+        </div>
+    </div>
+
+    <script>
+      var button = document.querySelector(".mobile_button")
+      var menu = document.querySelector("ul")
+      var open = false
+      button.addEventListener('click', function() {
+        if (open) {
+          'if the menu is closed, then open it'
+          menu.style.display = 'none'
+          open = false
+        } else {
+          'if the menu is open, then close it'
+          menu.style.display = 'inline-block'
+          open = true
+        }
+      })
+    </script>
+  </body>
+</html>

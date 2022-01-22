@@ -1,0 +1,450 @@
+@font-face {
+  font-family: brightsome;
+  src: url(BrightsomeFreePersonalUse.otf);
+}
+
+body {
+  background-color: #fff6f5;
+  padding: 0;
+  margin: 0;
+  font-family: "Source Sans Pro", Arial, sans-serif;
+}
+
+.container {
+  display: grid;
+  margin: 0;
+  padding: 0;
+  grid-template-columns: 41% 18% 41%;
+  grid-template-rows: [row1-start] 274px [row2-start] 63px [row3-start] 550px [row4-start] 471px [row5-start] 405px [row6-start] 470px [row7-start] 682px [row8-start] 405px [row9-start] 477px [row10-start] 402px [row11-start] 183px [row11-end];
+}
+
+.top-line img {
+  width: 300px;
+  height: 300px;
+}
+
+.columns1_2 {
+  grid-column: 1 / span 2;
+}
+
+.columns2_3 {
+  grid-column: 2 / span 2;
+}
+
+.columns1_2_3 {
+  grid-column: 1 / span 3;
+}
+
+.row5 {
+  grid-row: 5;
+}
+
+.row6 {
+  grid-row: 6;
+}
+
+.row7 {
+  grid-row: 7;
+}
+
+.row8 {
+  grid-row: 8;
+}
+
+.row9 {
+  grid-row: 9;
+}
+
+.row10 {
+  grid-row: 10;
+}
+
+.title {
+  text-align: center;
+  position: relative;
+}
+
+.top_line {
+  display: inline-block;
+  font-family: brightsome;
+  font-size: 72px;
+  color: #596a2f;
+  margin-top: 90px;
+  position: relative;
+}
+
+.top_line img {
+  display: inline-block;
+  position: absolute;
+  z-index: -2;
+  top: -80px;
+  left: -95px;
+}
+
+.tag-line {
+  font-size: 16px;
+}
+
+p,
+ol {
+  font-size: 24px;
+}
+
+ol {
+  display: inline-block;
+  text-align: left;
+}
+
+h1 {
+  font-family: Brightsome, Arial, sans-serif;
+}
+
+nav a {
+  color: white;
+  font-weight: bold;
+}
+
+ul {
+  list-style: none;
+  background-color: #849c46;
+  display: flex;
+  margin: 0;
+  height: 100%;
+  justify-content: center;
+  padding: 0;
+}
+
+li {
+  position: relative;
+}
+
+li a {
+  text-decoration: none;
+  padding: 23px 27px;
+  display: inline-block;
+  align-content: flex-end;
+}
+
+.skills_intro {
+  line-height: 1.5;
+  text-align: center;
+}
+
+.relative_parent {
+  position: relative;
+}
+
+.absolute_center_child {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+}
+
+.skills_intro div {
+  display: inline-block;
+  text-align: left;
+  max-width: 500px;
+}
+
+.info_inner {
+  text-align: left;
+  display: inline-block;
+}
+
+.info h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.info p {
+  display: inline-block;
+  text-align: left;
+}
+
+.images {
+  text-align: center;
+}
+
+.images_inner {
+  display: inline-block;
+  width: 480px;
+  text-align: left;
+}
+
+.images img {
+  width: 290px;
+  height: 402px;
+}
+
+.evelyn img {
+  width: 199px;
+  height: 308px;
+}
+
+.ziplining img {
+  width: 240px;
+  height: 274px;
+}
+
+figure {
+  display: inline-block;
+}
+
+.sunflowers,
+.ziplining {
+  position: absolute;
+}
+
+.sunflowers {
+  transform: translate(200px, -200px);
+}
+
+.ziplining {
+  transform: translate(200px, 200px);
+}
+
+.headshot {
+  position: relative;
+  z-index: 2;
+  margin: -10px;
+}
+
+figcaption {
+  color: #849c46;
+  font-family: "Source Sans Pro", Arial, sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+.userResearch {
+  background-color: #596a2f;
+  padding: 80px 0;
+  line-height: 1.5;
+  text-align: center;
+  color: white;
+}
+
+.userResearch div {
+  min-width: 500px;
+  display: inline-block;
+  text-align: left;
+}
+
+.userResearch h2 {
+  margin-top: 0;
+}
+
+.box_left_research {
+  background-color: #c0b633;
+  text-align: center;
+  padding: 50px 0;
+  margin: 0;
+}
+
+.box_left_research img {
+  width: 231px;
+  height: 218px;
+}
+
+.qualitativeInterviews {
+  background-color: #f2b9ac;
+  text-align: center;
+  padding: 70px 0;
+  margin: 0;
+}
+
+.box_left_interviews img {
+  width: 317px;
+  height: 245px;
+}
+
+.box_left_interviews {
+  background-color: #f2b9ac;
+}
+
+.box-right-2 {
+  background-color: #f2b9ac;
+  padding: 90px 0;
+  margin: 0;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.qualitativeInterviews div {
+  min-width: 500px;
+  display: inline-block;
+  text-align: left;
+}
+
+.userEmpathy {
+  background-color: #596a2f;
+  padding: 80px 0;
+  line-height: 1.5;
+  text-align: center;
+  color: white;
+}
+
+.userEmpathy div {
+  min-width: 500px;
+  display: inline-block;
+  text-align: left;
+}
+
+.userEmpathy h2 {
+  margin-top: 0;
+}
+
+.box_right_empathy img {
+  width: 263px;
+  height: 233px;
+}
+
+.box_right_empathy {
+  background-color: #c0b633;
+  text-align: center;
+  padding: 50px 0;
+  margin: 0;
+}
+
+.box-right-2 p {
+  text-align: left;
+  display: inline-block;
+}
+
+.imgReading img {
+  width: 167px;
+  height: 269px;
+}
+
+.imgReading {
+  background-color: #c0b633;
+  text-align: center;
+  padding: 50px 0;
+  margin: 0;
+}
+
+.Reading {
+  background-color: #c0b633;
+}
+
+.imgGardening img {
+  width: 501px;
+  height: 288px;
+}
+
+.imgGardening {
+  text-align: center;
+  padding: 50px 0;
+  margin: 0;
+}
+
+.imgOutdoors img {
+  width: 425px;
+  height: 244px;
+}
+
+.imgOutdoors {
+  background-color: #f2b9ac;
+  text-align: center;
+  padding: 50px 0;
+  margin: 0;
+}
+
+.Outdoors {
+  background-color: #f2b9ac;
+}
+
+footer {
+  background-color: #849c46;
+  display: flex;
+  position: relative;
+}
+
+footer img {
+  width: 32px;
+  height: 32px;
+}
+
+table {
+  margin: auto;
+}
+
+td {
+  padding: 15px 20px;
+}
+
+td * {
+  vertical-align: middle;
+}
+
+.copyRight {
+  position: absolute;
+  right: 20px;
+  bottom: 10px;
+  font-size: 12px;
+}
+
+.letsConnect {
+  grid-column: 2 / 3;
+  grid-row: row6-start / row6-end;
+  text-align: center;
+  color: #596a2f;
+}
+
+.letsConnect * {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.profile img {
+  width: 136 px;
+  height: 136px;
+}
+
+.mobile_button {
+  display: none;
+}
+
+@media only screen and (max-width: 900px) {
+  .container {
+    display: block;
+    position: relative;
+  }
+
+  .menu {
+    display: none;
+    position: absolute;
+    right: 15px;
+    top: 57px;
+    background: transparent;
+  }
+
+  .menu li {
+    text-align: center;
+    background: #849c46;
+  }
+
+  .images_inner {
+    width: initial;
+  }
+
+  .sunflowers,
+  .ziplining {
+    display: none;
+  }
+
+  .mobile_button {
+    display: inline;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    height: 36px;
+    width: 36px;
+  }
+
+  footer td:nth-child(1) {
+    width: 28%;
+  }
+}
