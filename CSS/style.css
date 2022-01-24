@@ -64,8 +64,12 @@ h1 {
 }
 
 nav a {
-  color: white;
+  color: black;
   font-weight: bold;
+}
+
+.menu {
+  display: flex;
 }
 
 ul {
@@ -285,7 +289,10 @@ td * {
     position: absolute;
     right: 15px;
     top: 57px;
+    height: inherit;
+    width: 150px;
     /*background: transparent;*/
+    z-index: 1000;
   }
 
   .menu li {
