@@ -114,7 +114,7 @@ li a {
   text-align: center;
 }
 
-.relative_parent {
+/*.relative_parent {
   position: relative;
 }
 
@@ -124,7 +124,7 @@ li a {
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 24px;
-}
+}*/
 
 .skills_intro {
   margin: 45px 0;
